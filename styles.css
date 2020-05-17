@@ -1,0 +1,102 @@
+.calculatorShape{
+    width: 300px;
+    height:340px;
+    background-color: grey;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.displayScreen{
+  box-sizing: content-box;  
+  width: 280px;
+  height: 100px;
+  padding: 0px;  
+  border: 10px solid grey;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.calculation{
+    font-size: 25px;
+}
+
+.answer{
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+.numbers {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  height: 60px;
+  width: 60px;
+  margin: 2px;
+}
+
+.numbers:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.numbers:focus {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.1rem rgba(38, 143, 255, 0.5);
+  /*removes the outline*/
+  outline: none !important;
+}
+
+.operator {
+  color: #fff;
+  background-color: #0da29e;
+  border-color: #538487;
+  height: 60px;
+  width: 60px;
+  margin: 2px;
+}
+
+.operator:hover {
+  color: #fff;
+  background-color: #538487;
+  border-color: #275469;
+}
+
+.operator:focus {
+  color: #fff;
+  background-color: #538487;
+  border-color: #275469;
+  box-shadow: 0 0 0 0.1rem rgba(39, 84, 105, 0.5);
+  /*removes the outline*/
+  outline: none !important;
+}
+
+.correction {
+  color: #fff;
+  background-color: #0da29e;
+  border-color: #538487;
+  height: 60px;
+  width: 128px;
+  margin: 2px;
+}
+
+.correction:hover {
+  color: #fff;
+  background-color: #538487;
+  border-color: #275469;
+}
+
+.correction:focus {
+  color: #fff;
+  background-color: #538487;
+  border-color: #275469;
+  box-shadow: 0 0 0 0.1rem rgba(39, 84, 105, 0.5);
+  /*removes the outline*/
+  outline: none !important;
+}
